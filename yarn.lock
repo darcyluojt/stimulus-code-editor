@@ -22,7 +22,33 @@
     "@codemirror/view" "^6.27.0"
     "@lezer/common" "^1.1.0"
 
-"@codemirror/lang-javascript@^6.2.4":
+"@codemirror/lang-css@^6.0.0", "@codemirror/lang-css@^6.3.1":
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/@codemirror/lang-css/-/lang-css-6.3.1.tgz#763ca41aee81bb2431be55e3cfcc7cc8e91421a3"
+  integrity sha512-kr5fwBGiGtmz6l0LSJIbno9QrifNMUusivHbnA1H6Dmqy4HZFte3UAICix1VuKo0lMPKQr2rqB+0BkKi/S3Ejg==
+  dependencies:
+    "@codemirror/autocomplete" "^6.0.0"
+    "@codemirror/language" "^6.0.0"
+    "@codemirror/state" "^6.0.0"
+    "@lezer/common" "^1.0.2"
+    "@lezer/css" "^1.1.7"
+
+"@codemirror/lang-html@^6.4.11":
+  version "6.4.11"
+  resolved "https://registry.yarnpkg.com/@codemirror/lang-html/-/lang-html-6.4.11.tgz#c46ba46ae642fd567cf05c4129005d2913ac248d"
+  integrity sha512-9NsXp7Nwp891pQchI7gPdTwBuSuT3K65NGTHWHNJ55HjYcHLllr0rbIZNdOzas9ztc1EUVBlHou85FFZS4BNnw==
+  dependencies:
+    "@codemirror/autocomplete" "^6.0.0"
+    "@codemirror/lang-css" "^6.0.0"
+    "@codemirror/lang-javascript" "^6.0.0"
+    "@codemirror/language" "^6.4.0"
+    "@codemirror/state" "^6.0.0"
+    "@codemirror/view" "^6.17.0"
+    "@lezer/common" "^1.0.0"
+    "@lezer/css" "^1.1.0"
+    "@lezer/html" "^1.3.12"
+
+"@codemirror/lang-javascript@^6.0.0", "@codemirror/lang-javascript@^6.2.4":
   version "6.2.4"
   resolved "https://registry.yarnpkg.com/@codemirror/lang-javascript/-/lang-javascript-6.2.4.tgz#eef2227d1892aae762f3a0f212f72bec868a02c5"
   integrity sha512-0WVmhp1QOqZ4Rt6GlVGwKJN3KW7Xh4H2q8ZZNGZaP6lRdxXJzmjm4FqvmOojVj6khWJHIb9sp7U/72W7xQgqAA==
@@ -35,7 +61,7 @@
     "@lezer/common" "^1.0.0"
     "@lezer/javascript" "^1.0.0"
 
-"@codemirror/language@^6.0.0", "@codemirror/language@^6.11.3", "@codemirror/language@^6.6.0":
+"@codemirror/language@^6.0.0", "@codemirror/language@^6.11.3", "@codemirror/language@^6.4.0", "@codemirror/language@^6.6.0":
   version "6.11.3"
   resolved "https://registry.yarnpkg.com/@codemirror/language/-/language-6.11.3.tgz#8e6632df566a7ed13a1bd307f9837765bb1abfdd"
   integrity sha512-9HBM2XnwDj7fnu0551HkGdrUrrqmYq/WC5iv6nbY2WdicXdGbhR/gfbZOH73Aqj4351alY1+aoG9rCNfiwS1RA==
@@ -212,6 +238,156 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.25.9.tgz#585624dc829cfb6e7c0aa6c3ca7d7e6daa87e34f"
   integrity sha512-PPOl1mi6lpLNQxnGoyAfschAodRFYXJ+9fs6WHXz7CSWKbOqiMZsubC+BQsVKuul+3vKLuwTHsS2c2y9EoKwxQ==
 
+"@fsegurai/codemirror-theme-abcdef@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-abcdef/-/codemirror-theme-abcdef-6.2.2.tgz#042574a89124c600752ce2ab40987f59906b4a44"
+  integrity sha512-pf9r0jOutR0yajaqV7vLEz+qOIcpQar62jnPXjIFR6NYoexP1S5Y5pwNY1fXzWXd0c2ZUcBvGE6YqhUAB0yy1w==
+
+"@fsegurai/codemirror-theme-abyss@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-abyss/-/codemirror-theme-abyss-6.2.2.tgz#957707bdcb36ee2f8cb1e755148b24e8a0ba53c9"
+  integrity sha512-kTz+9KpV+23V9w8PfzD1KwNdT/4XbcLhsIF46j/UTeXYw6ZIB63hD3eatTNNCDfgiRdWBjFBCxyUXX75JAprKw==
+
+"@fsegurai/codemirror-theme-android-studio@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-android-studio/-/codemirror-theme-android-studio-6.2.2.tgz#ec7a7b4bc95b2237e12724962b8eddfa05c3f7f6"
+  integrity sha512-LeX/RlVCGVRBRuP64iGAF/5rqlSdaMNrNSACKO7/nJLR4jQ7CGWY2ZbbAd2gmwcB8NISfNjTTDvOv5iUyFNjAg==
+
+"@fsegurai/codemirror-theme-andromeda@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-andromeda/-/codemirror-theme-andromeda-6.2.2.tgz#3f9c3ee51442248636b80f928ad5e651d892901b"
+  integrity sha512-XgwvRETA25bdaadC7bnC3OXKIritipQtO3CdO0ybzylS08FAIhFzliBD9v8dGzpMfw7pFGcMhrYCgwCGNzY2EQ==
+
+"@fsegurai/codemirror-theme-basic-dark@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-basic-dark/-/codemirror-theme-basic-dark-6.2.2.tgz#2b327e647c2496312d62633a6106e07d519c467d"
+  integrity sha512-cVK4VheF7ZkuV0sfy20lmH2S7Q2xIfKoqN2HdU5rpGH8mZM2LVG9Tl+oHT0XNPpsWFqNAAKLzjYFw0IPX95Biw==
+
+"@fsegurai/codemirror-theme-basic-light@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-basic-light/-/codemirror-theme-basic-light-6.2.2.tgz#6856b930a43dffac6797b6c226766656cca278ca"
+  integrity sha512-zFtJ6VwwEeZ/HAXMYdcJz6+DdW1aQkngFwbD3diku79cctpTglCWH49KRFO8Mifjzwylsynm7dLyOUnGhIu0NQ==
+
+"@fsegurai/codemirror-theme-bundle@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-bundle/-/codemirror-theme-bundle-6.2.2.tgz#aaa2172076b0d0dd5f29dbe67992f0b7a7ceafd1"
+  integrity sha512-tyZDmaNz+fgVdtQzYHtWLWkk0yHKgGzXAFtXRPu4D6Ij/Ry9ItqTq8QnUUIUN6wKegJTCRPslO7VEWgXIhSPnA==
+  dependencies:
+    "@fsegurai/codemirror-theme-abcdef" "^6.2.2"
+    "@fsegurai/codemirror-theme-abyss" "^6.2.2"
+    "@fsegurai/codemirror-theme-android-studio" "^6.2.2"
+    "@fsegurai/codemirror-theme-andromeda" "^6.2.2"
+    "@fsegurai/codemirror-theme-basic-dark" "^6.2.2"
+    "@fsegurai/codemirror-theme-basic-light" "^6.2.2"
+    "@fsegurai/codemirror-theme-cobalt2" "^6.0.2"
+    "@fsegurai/codemirror-theme-forest" "^6.2.2"
+    "@fsegurai/codemirror-theme-github-dark" "^6.2.2"
+    "@fsegurai/codemirror-theme-github-light" "^6.2.2"
+    "@fsegurai/codemirror-theme-gruvbox-dark" "^6.2.2"
+    "@fsegurai/codemirror-theme-gruvbox-light" "^6.2.2"
+    "@fsegurai/codemirror-theme-material-dark" "^6.2.2"
+    "@fsegurai/codemirror-theme-material-light" "^6.2.2"
+    "@fsegurai/codemirror-theme-monokai" "^6.2.2"
+    "@fsegurai/codemirror-theme-nord" "^6.2.2"
+    "@fsegurai/codemirror-theme-palenight" "^6.2.2"
+    "@fsegurai/codemirror-theme-solarized-dark" "^6.2.2"
+    "@fsegurai/codemirror-theme-solarized-light" "^6.2.2"
+    "@fsegurai/codemirror-theme-tokyo-night-day" "^6.2.2"
+    "@fsegurai/codemirror-theme-tokyo-night-storm" "^6.2.2"
+    "@fsegurai/codemirror-theme-volcano" "^6.2.2"
+    "@fsegurai/codemirror-theme-vscode-dark" "^6.2.2"
+    "@fsegurai/codemirror-theme-vscode-light" "^6.2.2"
+
+"@fsegurai/codemirror-theme-cobalt2@^6.0.2":
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-cobalt2/-/codemirror-theme-cobalt2-6.0.2.tgz#e5d62efb87eed3066f89aedb3b4ff8e684cc50d3"
+  integrity sha512-giDccKgpj4+ERr6r/exoVmodDEMPwoKwLVHs+zCVg98NfLAzo0P3/TKPjKZA9VMnZ06Qo+gRPHaw8rCc0eZiCg==
+
+"@fsegurai/codemirror-theme-forest@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-forest/-/codemirror-theme-forest-6.2.2.tgz#9474a2223b65bffd68750b8a2ad77c086a566585"
+  integrity sha512-qqktDJ9CI/1jj4bioX/u1khAiO6v4Pdzza9mTKFX82cytL7L1O19POqXvsIo+Pm64OBuYHkweWJhw0xGfx1lJQ==
+
+"@fsegurai/codemirror-theme-github-dark@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-github-dark/-/codemirror-theme-github-dark-6.2.2.tgz#0ea755b9053b454a18f5ee66b9e4fb3472c2192d"
+  integrity sha512-JP+UxyCrqX528oHF4/lJuRFrmjaAAJB+UzKJXIKV2u/hgurjvHyNOs4w9c5Cv5+1ITxyNUP1Zn2gPEGWjB0c6g==
+
+"@fsegurai/codemirror-theme-github-light@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-github-light/-/codemirror-theme-github-light-6.2.2.tgz#b4507a19d3bb99e7873d81a1dce1d350236a7196"
+  integrity sha512-YQr5MbhMlhRlAQcSCSbet4NDDkMvd5sbUyk9JmM0vfZhQbatvw4c56gNG/54JKGM0kWY5zRWzgLtFuz6D7yEsw==
+
+"@fsegurai/codemirror-theme-gruvbox-dark@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-gruvbox-dark/-/codemirror-theme-gruvbox-dark-6.2.2.tgz#3c53e7a22f44df1d4cb360fb9af48e28ca7ff7b9"
+  integrity sha512-AcEh2EvZDcqjl3qDCKYs5tcw49TYJzkEmLomBFo19uQBlNYuSmowNjpUWa4wIS1ITJH4UBJ1vncijirUqt3D1Q==
+
+"@fsegurai/codemirror-theme-gruvbox-light@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-gruvbox-light/-/codemirror-theme-gruvbox-light-6.2.2.tgz#05bd062dcf69ef3a8fc318f084b3132d917f1afe"
+  integrity sha512-JHekLI7W8Fivz4iPp7XKV7T3bw0hNubKdMvWNFDeMy8GbByB9WUi5h6IydoxbQKQRZfdHBT8/vt3/Dx7szWy4A==
+
+"@fsegurai/codemirror-theme-material-dark@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-material-dark/-/codemirror-theme-material-dark-6.2.2.tgz#dd401ac7090071f112b2fe1df18b6d17bab3c030"
+  integrity sha512-RISNwSHEmxpUwYB81UuZSzxpTO49znJr4eBnjNCuhVP4Q88TTHh2ENlNcKEvhzIiaH81Nzk1Q68u4InquxG9HA==
+
+"@fsegurai/codemirror-theme-material-light@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-material-light/-/codemirror-theme-material-light-6.2.2.tgz#bc1cd0260f240addc79dde8990140ad6975c1ddd"
+  integrity sha512-HkXow6grTdK6paZI4YRIdxghZo5XpedRE8PB96grb6EMOOXDs8xTUbUgkEP05MI8gjUPMAYF+ZuDZSOGIiMqkA==
+
+"@fsegurai/codemirror-theme-monokai@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-monokai/-/codemirror-theme-monokai-6.2.2.tgz#58196323a46f84b45d5d53ce7e50ddfe184bda2b"
+  integrity sha512-WEevHJsZVIDelfK3yE3KOfVTlW1uc/XwfSb1/4xfJU/r5mhVSvFAn+b6vkrzK1gLFIm+U+OSusBzUG+cFyXtkw==
+
+"@fsegurai/codemirror-theme-nord@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-nord/-/codemirror-theme-nord-6.2.2.tgz#f5827b139bb0597aaa1354d96d01e1420930a9bc"
+  integrity sha512-1Et7ZHpGhrQGHMFX67jlJJgC2Okl8mHF59ZAgZcTqMQoK9sL1yxBxxVjKKRx1whEgP7sZYHt/NRAz6+DZJneFg==
+
+"@fsegurai/codemirror-theme-palenight@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-palenight/-/codemirror-theme-palenight-6.2.2.tgz#fd93ed191e9ae8a798e53079963a1560a7d5f98e"
+  integrity sha512-44q47WUB8HPo+7wXSo3cG9hUhATqafOeBvyE1zEhNd0ngj6BbV1U18inNal/4IU7n47uctboGF/r5R7WvhEyXQ==
+
+"@fsegurai/codemirror-theme-solarized-dark@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-solarized-dark/-/codemirror-theme-solarized-dark-6.2.2.tgz#44dd0858482e1e38ac8b373c07fc915a2f5daa79"
+  integrity sha512-pKEsnoruphjis/iBukkH3plfG4ylHJOOzWajBhb9Cn7jtxCZud3po51cOQQAwqqMAYXSYhotjMMDhEDRmp/hZg==
+
+"@fsegurai/codemirror-theme-solarized-light@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-solarized-light/-/codemirror-theme-solarized-light-6.2.2.tgz#20e43eddc0de414ee953a238acddf599d8bc7d09"
+  integrity sha512-a5ENPtWD1t9iIftnxXqSBKHZjoVIfz+jWeje0PmFIarQLL3NsueKH0H1mGMgg+9i/mhpwIeJdQrHuGDSV1Rr0A==
+
+"@fsegurai/codemirror-theme-tokyo-night-day@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-tokyo-night-day/-/codemirror-theme-tokyo-night-day-6.2.2.tgz#9fc602c908bab0fa8bba44e6a0550ef4f6c7ab5b"
+  integrity sha512-eiikMj/E8U+WoGuUxsppFMCd+CfbtLg802PsyGP01RTPHjuFbZpMnL5VFbI177yXKSXKmiegkBHwJ7rVVSBBxQ==
+
+"@fsegurai/codemirror-theme-tokyo-night-storm@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-tokyo-night-storm/-/codemirror-theme-tokyo-night-storm-6.2.2.tgz#0e3e4bae81c0924f2ba30ee14a0b679c38d25ce6"
+  integrity sha512-3lvaim/06xYYbpNhGccIs54/0QjQPKLMXh+ggSD6s2I2ux5Y/HLnIa/atkehK4pu/fdid3+c7SCpu1XlF+SLDA==
+
+"@fsegurai/codemirror-theme-volcano@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-volcano/-/codemirror-theme-volcano-6.2.2.tgz#f3b46fb61f167c9eef03bfd8447307c56415c741"
+  integrity sha512-nuwKfPGhBK8HU+eoSZNt41TmvYFDUkM0M9Mpda+/lE757wmouktPwM+94podhbG04hW9wlCbDDzGvqDHh1hxwQ==
+
+"@fsegurai/codemirror-theme-vscode-dark@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-vscode-dark/-/codemirror-theme-vscode-dark-6.2.2.tgz#1c77870b2cb4f6a1504b8f8f7b43944f0aa7d085"
+  integrity sha512-TyyHxUoI1VcPaa22k0978o7p6nh5cucvlpsWdU4KS3leB+9mQPw8lwcpIfuuwicDNjKzf1ATxjx3WdDUd97H5Q==
+
+"@fsegurai/codemirror-theme-vscode-light@^6.2.2":
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/@fsegurai/codemirror-theme-vscode-light/-/codemirror-theme-vscode-light-6.2.2.tgz#7030c019ec84c08767f9bb254af863ebdbf6da21"
+  integrity sha512-bKVIvdmukbcI/OPuzmbkuLSrbqiii+SamSHdMFl/nV3olEumbcEo0tq9arJDL/vsboe/uXEa/MjwXSpWMVTCcQ==
+
 "@hotwired/stimulus@^3.2.2":
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/@hotwired/stimulus/-/stimulus-3.2.2.tgz#071aab59c600fed95b97939e605ff261a4251608"
@@ -230,17 +406,35 @@
   resolved "https://registry.yarnpkg.com/@hotwired/turbo/-/turbo-8.0.13.tgz#ab35fda9d358432c8a872a833844b38cccb8c25b"
   integrity sha512-M7qXUqcGab6G5PKOiwhgbByTtrPgKPFCTMNQ52QhzUEXEqmp0/ApEguUesh/FPiUjrmFec+3lq98KsWnYY2C7g==
 
-"@lezer/common@^1.0.0", "@lezer/common@^1.1.0", "@lezer/common@^1.2.0":
+"@lezer/common@^1.0.0", "@lezer/common@^1.0.2", "@lezer/common@^1.1.0", "@lezer/common@^1.2.0":
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/@lezer/common/-/common-1.2.3.tgz#138fcddab157d83da557554851017c6c1e5667fd"
   integrity sha512-w7ojc8ejBqr2REPsWxJjrMFsA/ysDCFICn8zEOR9mrqzOu2amhITYuLD8ag6XZf0CFXDrhKqw7+tW8cX66NaDA==
 
-"@lezer/highlight@^1.0.0", "@lezer/highlight@^1.1.3":
+"@lezer/css@^1.1.0", "@lezer/css@^1.1.7":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@lezer/css/-/css-1.3.0.tgz#296f298814782c2fad42a936f3510042cdcd2034"
+  integrity sha512-pBL7hup88KbI7hXnZV3PQsn43DHy6TWyzuyk2AO9UyoXcDltvIdqWKE1dLL/45JVZ+YZkHe1WVHqO6wugZZWcw==
+  dependencies:
+    "@lezer/common" "^1.2.0"
+    "@lezer/highlight" "^1.0.0"
+    "@lezer/lr" "^1.3.0"
+
+"@lezer/highlight@^1.0.0", "@lezer/highlight@^1.1.3", "@lezer/highlight@^1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@lezer/highlight/-/highlight-1.2.1.tgz#596fa8f9aeb58a608be0a563e960c373cbf23f8b"
   integrity sha512-Z5duk4RN/3zuVO7Jq0pGLJ3qynpxUVsh7IbUbGj88+uV2ApSAn6kWg2au3iJb+0Zi7kKtqffIESgNcRXWZWmSA==
   dependencies:
     "@lezer/common" "^1.0.0"
+
+"@lezer/html@^1.3.12":
+  version "1.3.12"
+  resolved "https://registry.yarnpkg.com/@lezer/html/-/html-1.3.12.tgz#a438e2d04f4c863d49cad27efe714cde8cf3ff1b"
+  integrity sha512-RJ7eRWdaJe3bsiiLLHjCFT1JMk8m1YP9kaUbvu2rMLEoOnke9mcTVDyfOslsln0LtujdWespjJ39w6zo+RsQYw==
+  dependencies:
+    "@lezer/common" "^1.2.0"
+    "@lezer/highlight" "^1.0.0"
+    "@lezer/lr" "^1.0.0"
 
 "@lezer/javascript@^1.0.0":
   version "1.5.1"

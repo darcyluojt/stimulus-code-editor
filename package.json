@@ -7,14 +7,18 @@
   "dependencies": {
     "@codemirror/autocomplete": "^6.18.7",
     "@codemirror/commands": "^6.8.1",
+    "@codemirror/lang-css": "^6.3.1",
+    "@codemirror/lang-html": "^6.4.11",
     "@codemirror/lang-javascript": "^6.2.4",
     "@codemirror/language": "^6.11.3",
     "@codemirror/lint": "^6.8.5",
     "@codemirror/search": "^6.5.11",
     "@codemirror/state": "^6.5.2",
     "@codemirror/view": "^6.38.2",
+    "@fsegurai/codemirror-theme-bundle": "^6.2.2",
     "@hotwired/stimulus": "^3.2.2",
     "@hotwired/turbo-rails": "^8.0.16",
+    "@lezer/highlight": "^1.2.1",
     "codemirror": "^6.0.2"
   },
   "devDependencies": {

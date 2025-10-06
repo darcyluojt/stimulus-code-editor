@@ -1,6 +1,7 @@
 import { Controller } from "@hotwired/stimulus"
 import { standardSetup } from "./editor/setup"
 import { autocomplete } from "./editor/autocomplete"
+import { theme } from "./editor/theme"
 import { EditorView } from "@codemirror/view"
 import { debounce } from "./helpers/debounce"
 
@@ -29,7 +30,8 @@ export default class extends Controller {
       parent: this.element,
       extensions: [
         standardSetup,
-        autocomplete,
+        autocomplete.for("html"),
+        theme.set("githubDark", { fontSize: 12, lineHeight: 1.6 }),
         EditorView.updateListener.of((update) => {
           if (update.docChanged) {
             this.statusTarget.textContent = statuses.saving
