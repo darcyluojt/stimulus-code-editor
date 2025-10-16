@@ -10,11 +10,11 @@ import { lintKeymap } from "@codemirror/lint"
 import { closeBrackets, closeBracketsKeymap } from "@codemirror/autocomplete"
 
 export const standardSetup = [
-  lineNumbers(),
+  // lineNumbers(),
   highlightActiveLineGutter(),
   highlightSpecialChars(),
   history(),
-  foldGutter(),
+  // foldGutter(),
   drawSelection(),
   dropCursor(),
   EditorState.allowMultipleSelections.of(true),
@@ -24,7 +24,7 @@ export const standardSetup = [
   bracketMatching(),
   rectangularSelection(),
   crosshairCursor(),
-  highlightActiveLine(),
+  // highlightActiveLine(),
   highlightSelectionMatches(),
 
   keymap.of([
@@ -33,7 +33,7 @@ export const standardSetup = [
     ...foldKeymap,
     ...closeBracketsKeymap,
     ...lintKeymap,
-    indentWithTab
+    // indentWithTab
   ])
 
 

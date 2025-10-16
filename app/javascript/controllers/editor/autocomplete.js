@@ -12,6 +12,8 @@ const languages = {
 
 export const autocomplete = {
   for(language) {
+    console.log("languages", languages)
+    console.log("language:", autocomplete)
     return [
       autocompletion(),
       keymap.of(completionKeymap),

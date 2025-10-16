@@ -7,10 +7,10 @@ import {
 import { EditorView } from "codemirror"
 
 const themes = {
-  githubDark: githubDark,
-  githubLight: githubLight,
-  vsCodeDark: vsCodeDark,
-  vsCodeLight: vsCodeLight
+  githubDark,
+  githubLight,
+  vsCodeDark,
+  vsCodeLight
 }
 
 export const theme = {
@@ -19,9 +19,10 @@ export const theme = {
       fontSize=14,
       lineHeight=1.5
     } = options
+    console.log("themes", themes)
+    console.log("theme:", theme)
     return [
       themes[name] || null,
-
       EditorView.theme({
        "&": {
         fontSize: `${fontSize}px`

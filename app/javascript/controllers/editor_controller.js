@@ -1,6 +1,7 @@
 import { Controller } from "@hotwired/stimulus"
 import { standardSetup } from "./editor/setup"
 import { autocomplete } from "./editor/autocomplete"
+import { preferences } from "./editor/preferences"
 import { theme } from "./editor/theme"
 import { EditorView } from "@codemirror/view"
 import { debounce } from "./helpers/debounce"
@@ -20,11 +21,13 @@ export default class extends Controller {
   static targets = ["status"]
 
   initialize() {
-    this.debouceUpdate = debounce(() =>
-    this.#update())
+    this.debounceUpdate = debounce(() => {
+      this.#update()
+    })
   }
 
   connect() {
+    console.log("Editor connected")
     this.editor = new EditorView({
       doc: this.contentValue,
       parent: this.element,
@@ -32,10 +35,17 @@ export default class extends Controller {
         standardSetup,
         autocomplete.for("html"),
         theme.set("githubDark", { fontSize: 12, lineHeight: 1.6 }),
+        preferences.set({
+          enableLineNumbers: true,
+          enableFoldGutter: true,
+          enableHighlightActiveLine: true,
+          enableIndentWithWeb: true
+        }),
         EditorView.updateListener.of((update) => {
           if (update.docChanged) {
             this.statusTarget.textContent = statuses.saving
-            this.debouceUpdate() }
+            this.debounceUpdate()
+          }
         })
       ]
     })
